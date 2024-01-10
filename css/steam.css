@@ -1,0 +1,6 @@
+/* ゲームの概要テキストが切り詰められないようにする */
+.glance_ctn .game_description_snippet {
+  max-height: none;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: unset;
+}

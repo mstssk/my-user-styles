@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "My User Styles",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.geoguessr.com/*"],
+      "css": ["css/geoguessr.css"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["css/youtube.css"]
+    },
+    {
+      "matches": ["https://store.steampowered.com/*"],
+      "css": ["css/steam.css"]
+    }
+  ]
+}
