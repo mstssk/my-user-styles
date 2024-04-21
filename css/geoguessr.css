@@ -1,4 +1,5 @@
 /* Hide Friend chat on GeoGuessr. */
-.styles_friendChatButton__lJmi7 {
+.styles_friendChatButton__lJmi7,
+.styles_friendChatButton__oFztY {
   display: none;
 }
